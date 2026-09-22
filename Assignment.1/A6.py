@@ -1,0 +1,10 @@
+import random
+a1 = random.randint(0, 9)
+a2 = random.randint(0, 9)
+a3 = random.randint(0, 9)
+b1 = random.randint(1, 6)
+b2 = random.randint(1, 6)
+b3 = random.randint(1, 6)
+b4 = random.randint(1, 6)
+print(f"Mã 3 chữ số: {a1}{a2}{a3}")
+print(f"Mã 4 chữ số: {b1}{b2}{b3}{b4}")
